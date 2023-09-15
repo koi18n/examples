@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@rewordlabs/next": "latest",
-    "@rewordlabs/react": "latest",
+    "@rewordlabs/next": "^0.1.0",
+    "@rewordlabs/react": "^0.1.0",
     "next": "13.4.19",
     "react-dom": "18.2.0",
     "react": "18.2.0"
   },
   "devDependencies": {
-    "@rewordlabs/dev": "latest",
+    "@rewordlabs/dev": "^0.1.0",
     "@types/node": "20.5.1",
     "@types/react-dom": "^18.2.7",
     "@types/react": "18.2.20",

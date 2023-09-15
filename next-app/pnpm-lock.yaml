@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@rewordlabs/next':
-    specifier: latest
-    version: 0.0.0(next@13.4.19)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.1.0
+    version: 0.1.0(next@13.4.19)(react-dom@18.2.0)(react@18.2.0)
   '@rewordlabs/react':
-    specifier: latest
-    version: 0.0.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.1.0
+    version: 0.1.0(react-dom@18.2.0)(react@18.2.0)
   next:
     specifier: 13.4.19
     version: 13.4.19(react-dom@18.2.0)(react@18.2.0)
@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@rewordlabs/dev':
-    specifier: latest
-    version: 0.0.0
+    specifier: ^0.1.0
+    version: 0.1.0
   '@types/node':
     specifier: 20.5.1
     version: 20.5.1
@@ -566,16 +566,16 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  /@rewordlabs/dev@0.0.0:
-    resolution: {integrity: sha512-PdJpnqm++327kE5eFZEJZ/Br894JbY32En9ZPRxgqDAFYArnwNops02ScVm5fneKmdF34S7wglVLpKPPziABbQ==}
+  /@rewordlabs/dev@0.1.0:
+    resolution: {integrity: sha512-zyxb9C7fRdsWhy5lG++zL+XyzlgJWzTdLJMSR58QHHwS02bW9pU5BVuVmbNEAT2Ik05mX/EJB9EDjZXHDr5XuQ==}
     hasBin: true
     dependencies:
       '@inquirer/prompts': 3.1.1
-      '@rewordlabs/extractor': 0.0.0
-      '@rewordlabs/logger': 0.0.0
-      '@rewordlabs/node': 0.0.0
-      '@rewordlabs/translator': 0.0.0
-      '@rewordlabs/utils': 0.0.0
+      '@rewordlabs/extractor': 0.1.0
+      '@rewordlabs/logger': 0.1.0
+      '@rewordlabs/node': 0.1.0
+      '@rewordlabs/translator': 0.1.0
+      '@rewordlabs/utils': 0.1.0
       cac: 6.7.14
       inquirer: 9.2.11
       kleur: 4.1.5
@@ -585,50 +585,49 @@ packages:
       - encoding
     dev: true
 
-  /@rewordlabs/extractor@0.0.0:
-    resolution: {integrity: sha512-WyYCk8LOr7Wh9g2WnyRUXzaS5+yYI5Rfyf2q0aVN6LNGkG6XkDVZ50Fk0dPYjsmAxHtTUzPDdmsoaNLwLeknXg==}
+  /@rewordlabs/extractor@0.1.0:
+    resolution: {integrity: sha512-tP8X24CP0ui0lEiXZDqc861NBrS77MrB7ZyAWj+lOm+jIHI7uvaU2v41lU8bo4stgOdLoKL5vsYF/hGDApyZIg==}
     dependencies:
-      '@rewordlabs/logger': 0.0.0
-      '@rewordlabs/node': 0.0.0
-      '@rewordlabs/transformer': 0.0.0
+      '@rewordlabs/logger': 0.1.0
+      '@rewordlabs/node': 0.1.0
+      '@rewordlabs/transformer': 0.1.0
     dev: true
 
-  /@rewordlabs/formatter@0.0.0:
-    resolution: {integrity: sha512-plOz0I2zAXkaN0Rbr6haKcSy0xSKrDNEmdnRMFQgxLRoxLeAGWyb8pJ3Et1V+JrdmR/TstxXujy655yWsr7fNA==}
+  /@rewordlabs/formatter@0.1.0:
+    resolution: {integrity: sha512-jPeP66LWHe/1kITnN908PGNthC5JuH/sD4q/rueObx0ulkDhf1cHIh7+nxe7I1AsCkwOLRNBFYqlyda9Ds1UfQ==}
     dependencies:
-      '@rewordlabs/node': 0.0.0
-      '@rewordlabs/utils': 0.0.0
+      '@rewordlabs/node': 0.1.0
+      '@rewordlabs/utils': 0.1.0
     dev: false
 
-  /@rewordlabs/logger@0.0.0:
-    resolution: {integrity: sha512-upNz7PBk7+2QeZKS7iu0q+1zsGnVvbUhs154LW9V1JmMWWCsm2VIV6J5SdwubzPANDX3OBgSym1cmcAM3e3vKQ==}
+  /@rewordlabs/logger@0.1.0:
+    resolution: {integrity: sha512-TXBIhZdnEqX8rl664w0NgBNsfcCTljqsTq3Zpe/sAuVnsfWkjuhmHOGRMJuMe4LFshAF120nyRJU+qVRUeKbfg==}
     dependencies:
       kleur: 4.1.5
       lil-fp: 1.4.5
 
-  /@rewordlabs/next@0.0.0(next@13.4.19)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-PC19e8dbOV8UdS5hJFQ69hxvIm2u7/rKx3JI5fH/l1qASd+boPbQgHicjsXSmHb89pmeU50/B+nNhOZCtmMAaw==}
+  /@rewordlabs/next@0.1.0(next@13.4.19)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-m9nPH2W8C9tgTbN97I9KZLFkqGAMRUJ8oy/NzoKh/KC+Kw+j2EesRnD2rNVi+RgPtvfBlQtENtu2kIN3z7mo9g==}
     peerDependencies:
-      next: ^13.4.0
-      react: ^18.2.0
+      next: 13.x
     dependencies:
-      '@rewordlabs/formatter': 0.0.0
-      '@rewordlabs/react': 0.0.0(react-dom@18.2.0)(react@18.2.0)
-      '@rewordlabs/utils': 0.0.0
+      '@rewordlabs/formatter': 0.1.0
+      '@rewordlabs/react': 0.1.0(react-dom@18.2.0)(react@18.2.0)
+      '@rewordlabs/utils': 0.1.0
       client-only: 0.0.1
       next: 13.4.19(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
       server-only: 0.0.1
     transitivePeerDependencies:
+      - react
       - react-dom
       - react-native
     dev: false
 
-  /@rewordlabs/node@0.0.0:
-    resolution: {integrity: sha512-m5mNrAQS46CVa0BvKUox8EM1QAHdmWJKJBfcJgXO7a8rbSQ5hpoNGU8wlf4jmkqqsEWUccz4OdjCeswFejTzzQ==}
+  /@rewordlabs/node@0.1.0:
+    resolution: {integrity: sha512-iCywBaFsn5lbiMiy3c6W+6ZRNxXYCgLY12TRQZPVaoozcsTP9tDoq6ASfSs8YiBmVUAnE58zwRSNRMUaWmyIdg==}
     dependencies:
-      '@rewordlabs/logger': 0.0.0
-      '@rewordlabs/types': 0.0.0
+      '@rewordlabs/logger': 0.1.0
+      '@rewordlabs/types': 0.1.0
       bundle-n-require: 1.0.1
       chokidar: 3.5.3
       fast-glob: 3.3.1
@@ -637,14 +636,14 @@ packages:
       outdent: 0.8.0
       pathe: 1.1.1
 
-  /@rewordlabs/react@0.0.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-0aoOTZWM580GAhCBL7FyECwPZhYlD/nWi3HOFdB8RvrS0+56wC0UjnJ/IaMByGF8COqJyIKWzHi9sSE77SU2hg==}
+  /@rewordlabs/react@0.1.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-8k6mvDrtlhGw/XVqolQs1Tys5HJn3e1/yELDtWV/2NZbJwzgFY3S0jVWX356GljF3fak5UMe3e37jeiLy0eS7w==}
     peerDependencies:
-      react: ^18.2.0
+      react: 18.x
     dependencies:
       '@legendapp/state': 1.11.1(react@18.2.0)
-      '@rewordlabs/formatter': 0.0.0
-      '@rewordlabs/utils': 0.0.0
+      '@rewordlabs/formatter': 0.1.0
+      '@rewordlabs/utils': 0.1.0
       '@tanstack/react-query': 4.35.0(react-dom@18.2.0)(react@18.2.0)
       client-only: 0.0.1
       intl-messageformat: 10.5.2
@@ -655,30 +654,30 @@ packages:
       - react-native
     dev: false
 
-  /@rewordlabs/transformer@0.0.0:
-    resolution: {integrity: sha512-1w+3uNIIXFcoa1oJRcN+jlXcKvguo8th03aw0GiGe0adOOFX3YBgSKLHeQl7dSqoA60SjwtQN1Za/3ihkQ+NoQ==}
+  /@rewordlabs/transformer@0.1.0:
+    resolution: {integrity: sha512-QH2GQYy94DiTG6PM88OAyVBq/kyfCbxcIiUFhBlgEjFmZdYYhywhuQWTlXc2unrd+GdInrF10xeX110AlFjOkw==}
     dependencies:
-      '@rewordlabs/utils': 0.0.0
+      '@rewordlabs/utils': 0.1.0
       chalk: 4.1.2
     dev: true
 
-  /@rewordlabs/translator@0.0.0:
-    resolution: {integrity: sha512-B3sl+MRVbWUUdrhB8hHltBH2j+uhczOWE7GVC6t9ku7XBJ5yhmicaTeeRc0WGAEaNMJGwal/H22gQE4js5IvcQ==}
+  /@rewordlabs/translator@0.1.0:
+    resolution: {integrity: sha512-Qz+E6+gCEARPRvIWTmhylGWnKqKgJCRLHuDhf3ILcFfgTb6pm2ZX7iDwoEsYN+l9tJJBPJRj/bY97riAFXbiRA==}
     dependencies:
-      '@rewordlabs/node': 0.0.0
-      '@rewordlabs/utils': 0.0.0
+      '@rewordlabs/node': 0.1.0
+      '@rewordlabs/utils': 0.1.0
       openai: 4.6.0
     transitivePeerDependencies:
       - encoding
     dev: true
 
-  /@rewordlabs/types@0.0.0:
-    resolution: {integrity: sha512-f9RRMgXLulnTQVVMuWxxZBD6RNPIHr3fTNOxQOoLHxKuYeXdTzve8fUZ6YyNaH5Pf2vchT+BTEuknoVGbcGb4A==}
+  /@rewordlabs/types@0.1.0:
+    resolution: {integrity: sha512-ItxrYMryg8JIqxkzMYuaIjdE9YYxCRO6DT9oH5GcpGdOyQZnuLDKK/OB8cQyC6TQMdOJQUOEgfyM3vppIFfgpg==}
 
-  /@rewordlabs/utils@0.0.0:
-    resolution: {integrity: sha512-ku8nZCYajMUIAS4UAew6jCdUiMWxp1qteu2GHxbHHjh3loS6sj9y/JflAVwIV19STE5y9d4Z11ljtBhiizwQ6Q==}
+  /@rewordlabs/utils@0.1.0:
+    resolution: {integrity: sha512-6U3IZKxcyZton7PAUash8m1TAstVyiz8UvwKnDUhtYqw4+dFfj6DO5VC9AhIvwzM4poduhR5E/h7Rz9VKO+LjA==}
     dependencies:
-      '@rewordlabs/types': 0.0.0
+      '@rewordlabs/types': 0.1.0
 
   /@rushstack/eslint-patch@1.3.3:
     resolution: {integrity: sha512-0xd7qez0AQ+MbHatZTlI1gu5vkG8r7MYRUJAHPAHJBmGLs16zpkrpAVLvjQKQOqaXPDUBwOiJzNc00znHSCVBw==}
