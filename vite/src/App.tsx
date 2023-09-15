@@ -1,4 +1,4 @@
-import { changeLocale, tx } from '../locale/client'
+import { changeLocale, tx } from './reword'
 import { Suspense } from 'react'
 
 export default function App() {
@@ -7,9 +7,7 @@ export default function App() {
   return (
     <Suspense fallback={<span>{'Loading...'}</span>}>
       <div>
-        <span>{tx({
-          context: 'react',
-        })`Hello <strong>world</strong>! This is ${name}!`}</span>
+        <span>{tx`Hello <strong>world</strong>! This is ${name}!`}</span>
 
         <div className={'buttons'}>
           <button onClick={() => changeLocale('es')}>ES</button>

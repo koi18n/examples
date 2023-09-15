@@ -8,6 +8,9 @@ dependencies:
   '@rewordlabs/react':
     specifier: ^0.2.0
     version: 0.2.0(react-dom@18.2.0)(react@18.2.0)
+  dotenv:
+    specifier: ^16.3.1
+    version: 16.3.1
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -19,6 +22,9 @@ devDependencies:
   '@rewordlabs/dev':
     specifier: ^0.2.0
     version: 0.2.0
+  '@types/node':
+    specifier: ^20.6.1
+    version: 20.6.1
   '@types/react':
     specifier: ^18.2.15
     version: 18.2.21
@@ -48,7 +54,7 @@ devDependencies:
     version: 5.2.2
   vite:
     specifier: ^4.4.5
-    version: 4.4.9
+    version: 4.4.9(@types/node@20.6.1)
 
 packages:
 
@@ -772,7 +778,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.1.4
       '@types/mute-stream': 0.0.1
-      '@types/node': 20.6.0
+      '@types/node': 20.6.1
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -1051,13 +1057,13 @@ packages:
   /@types/mute-stream@0.0.1:
     resolution: {integrity: sha512-0yQLzYhCqGz7CQPE3iDmYjhb7KMBFOP+tBkyw+/Y2YyDI5wpS7itXXxneN1zSsUwWx3Ji6YiVYrhAnpQGS/vkw==}
     dependencies:
-      '@types/node': 20.6.0
+      '@types/node': 20.6.1
     dev: true
 
   /@types/node-fetch@2.6.4:
     resolution: {integrity: sha512-1ZX9fcN4Rvkvgv4E6PAY5WXUFWFcRWxZa3EW83UjycOB9ljJCedb2CupIP4RZMEwF/M3eTcCihbBRgwtGbg5Rg==}
     dependencies:
-      '@types/node': 20.6.0
+      '@types/node': 20.6.1
       form-data: 3.0.1
     dev: true
 
@@ -1065,8 +1071,8 @@ packages:
     resolution: {integrity: sha512-2yrWpBk32tvV/JAd3HNHWuZn/VDN1P+72hWirHnvsvTGSqbANi+kSeuQR9yAHnbvaBvHDsoTdXV0Fe+iRtHLKA==}
     dev: true
 
-  /@types/node@20.6.0:
-    resolution: {integrity: sha512-najjVq5KN2vsH2U/xyh2opaSEz6cZMR2SetLIlxlj08nOcmPOemJmUK2o4kUzfLqfrWE0PIrNeE16XhYDd3nqg==}
+  /@types/node@20.6.1:
+    resolution: {integrity: sha512-4LcJvuXQlv4lTHnxwyHQZ3uR9Zw2j7m1C9DfuwoTFQQP4Pmu04O6IfLYgMmHoOCt0nosItLLZAH+sOrRE0Bo8g==}
     dev: true
 
   /@types/prop-types@15.7.5:
@@ -1240,7 +1246,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.22.5(@babel/core@7.22.17)
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.22.17)
       react-refresh: 0.14.0
-      vite: 4.4.9
+      vite: 4.4.9(@types/node@20.6.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1579,6 +1585,11 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dotenv@16.3.1:
+    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /electron-to-chromium@1.4.513:
     resolution: {integrity: sha512-cOB0xcInjm+E5qIssHeXJ29BaUyWpMyFKT5RB3bsLENDheCja0wMkHJyiPl0NBE/VzDI7JDuNEQWhe6RitEUcw==}
@@ -2824,7 +2835,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite@4.4.9:
+  /vite@4.4.9(@types/node@20.6.1):
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2852,6 +2863,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 20.6.1
       esbuild: 0.18.20
       postcss: 8.4.29
       rollup: 3.29.1

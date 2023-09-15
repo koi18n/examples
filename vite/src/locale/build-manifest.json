@@ -1,0 +1,11 @@
+{
+  "messages": {
+    "cyIfZW": {
+      "id": "cyIfZW",
+      "value": "Hello <strong>world</strong>! This is ${var}!",
+      "context": "",
+      "file": "/Users/hugocxl/repos/examples/vite/src/App.tsx",
+      "chunkId": "kKXtqj"
+    }
+  }
+}
