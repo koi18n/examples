@@ -9,19 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@rewordlabs/next": "^0.1.0",
-    "@rewordlabs/react": "^0.1.0",
-    "next": "13.4.19",
-    "react-dom": "18.2.0",
-    "react": "18.2.0"
+    "@rewordlabs/next": "latest",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@rewordlabs/dev": "^0.1.0",
+    "@rewordlabs/dev": "latest",
     "@types/node": "20.5.1",
-    "@types/react-dom": "^18.2.7",
     "@types/react": "18.2.20",
-    "eslint-config-next": "^13.4.13",
-    "eslint": "^8.46.0",
+    "@types/react-dom": "^18.2.7",
+    "eslint": "^8.49.0",
+    "eslint-config-next": "^13.4.19",
     "typescript": "^5.2.2"
   }
 }

@@ -1,6 +1,6 @@
-import { setupClient } from '@rewordlabs/react/client'
+import { setup } from '@rewordlabs/react'
 
-export const { tx, changeLocale } = setupClient({
+export const { tx, setLocale } = setup({
   locale: 'en',
   loader: (locale: string, id: string) =>
     import(`./locale/${locale}/${id}.json`).then((msg) => msg.default[id]),
