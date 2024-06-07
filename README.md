@@ -1,3 +1,3 @@
 # Terai Examples
 
-Our curated collection of examples and solutions
+Our curated collection of examples using Terai

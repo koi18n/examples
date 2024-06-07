@@ -1,0 +1,28 @@
+{
+  "messages": {
+    "dQxGBP": {
+      "id": "dQxGBP",
+      "value": "Hello world!",
+      "files": [
+        "vite/src/App.tsx",
+        "vite/src/example.tsx"
+      ],
+      "context": "",
+      "chunksIds": [
+        "default",
+        "default"
+      ]
+    },
+    "eUqyLy": {
+      "id": "eUqyLy",
+      "value": "Just focus on your messages and Terai will take of the rest!",
+      "files": [
+        "vite/src/example.tsx"
+      ],
+      "context": "",
+      "chunksIds": [
+        "default"
+      ]
+    }
+  }
+}
